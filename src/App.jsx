@@ -18,14 +18,19 @@ const App = () => {
   return (
     <div className=" min-h-screen flex flex-col">
       {/* Menu Movil */}
-      <button onClick={toggleMenu} className='fixed bottom-8 right-8 bg-[#22222A] text-white p-3 rounded-full'>
+      <button onClick={toggleMenu} className='fixed bottom-4 right-4 bg-[#22222A] text-white p-3 rounded-full '>
         <RiMenu3Line/>
       </button>
       {/* componente Header */}
         <Header/>
       {/* componente Lista de ususarios  */}
-      <main className=' h-[92vh] md:h-[95vh] grid grid-cols-1 md:grid-cols-8'>
+      <main className=' h-[92vh] md:h-[95vh] grid grid-cols-1 lg:grid-cols-8'>
        <List showMenu={showMenu}  setShowmenu={setShowmenu}/>
+       <Chat/>
+       <Perfil/>
+
+
+
       </main>
     </div>
   )

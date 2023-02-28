@@ -8,7 +8,7 @@ const List = (props) => {
 
   
   return (
-    <section className={`col-span-2 bg-[#22222A] p-8 overflow-y-scroll fixed lg:static  transition-all ${showMenu ? "left-0" : "-left-full"}`}>
+    <section className={`col-span-2 bg-[#22222A] p-8 overflow-y-scroll lg:w-full top-0 h-full md:w-[50%] w-[80%] fixed lg:static transition-all ${showMenu ? "left-0" : "-left-full"}`}>
       <div>
         <h1 className='text-3xl text-white mb-4'>Mensajes</h1>
         <form className='hidden md:block mb-6'>
