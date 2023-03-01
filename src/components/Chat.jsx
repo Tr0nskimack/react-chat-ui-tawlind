@@ -1,5 +1,6 @@
 import React from 'react'
-import { RiAddLine } from 'react-icons/ri'
+import { RiAddLine, RiImageAddLine,RiEmotionHappyLine, RiMapPinLine   } from 'react-icons/ri'
+import { BiMicrophone, BiRightTopArrowCircle } from "react-icons/bi";
 
 const Chat = () => {
   return (
@@ -30,6 +31,22 @@ const Chat = () => {
             </div>
           </div>
 
+        </div>
+        {/* Message */}
+        <div className="absolute bg-[#292933] left-0 bottom-0 w-full p-8 ">
+          <form className='relative'>
+            <input type="text" className='outline-none w-full py-2 px-10 rounded-full bg-[#1e1f24] text-gray-300 ' />
+            <BiMicrophone className='absolute text-gray-200 top-[11px] left-4 text-xl'/>
+            {/* Iconos en input */}
+            <div className='text-gray-300 flex gap-2 absolute top-[11px] items-center right-4'>
+              <RiImageAddLine/>
+              <RiEmotionHappyLine/>
+              <BiRightTopArrowCircle/>
+              <RiMapPinLine/>
+
+            </div>
+
+          </form>
         </div>
     </section>
 
