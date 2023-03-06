@@ -27,8 +27,8 @@ const List = (props) => {
         {/* Nombre y hora */}
         <div className='w-[85%] flex justify-between'>
           <div>
-            <h3 className='text-gray-300 font-semibold'>Jose Marcano</h3>
-            <p className='text-green-300'>Escribiendo...</p>
+            <h3 className='text-gray-300 font-semibold'>Asha team</h3>
+            <p className='text-green-300 text-sm'>Escribiendo...</p>
           </div>
           <div>
             <h3 className='text-gray-500'>4:30 PM</h3>
@@ -38,7 +38,7 @@ const List = (props) => {
       </a>
       <a href="#" className='flex w-full gap-2 mb-8'>
         <div className='w-[15%] relative flex items-center justify-center '>
-          <img src="https://img.freepik.com/foto-gratis/retrato-joven-atractivo-vestido-informalmente-usando-tableta-sonriendo-fondo-blanco_662251-2948.jpg?" className='w-10 h-10 object-cover rounded-full'/>
+          <img src="https://img.freepik.com/foto-gratis/retrato-joven-atractivo-vestido-informalmente-usando-tableta-sonriendo-fondo-blanco_662251-2948.jpg" className='w-10 h-10 object-cover rounded-full'/>
           <RiCheckboxBlankCircleFill className='text-green-500 text-xs absolute right-1 bottom-0 ring-2 ring-white rounded-full '/>
         </div>
         {/* Nombre y hora */}
@@ -82,7 +82,7 @@ const List = (props) => {
         <div className='w-[85%] flex justify-between'>
           <div>
             <h3 className='text-gray-300 font-semibold'>Jose Marcano</h3>
-            <p className='text-green-300'>Escribiendo...</p>
+            <p className='text-green-300 text-sm'>Escribiendo...</p>
           </div>
           <div>
             <h3 className='text-gray-500'>4:30 PM</h3>
