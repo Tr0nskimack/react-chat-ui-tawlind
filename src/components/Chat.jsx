@@ -1,7 +1,6 @@
 import React from 'react'
 import { RiAddLine, RiImageAddLine,RiEmotionHappyLine, RiMapPinLine   } from 'react-icons/ri'
 import { BiMicrophone, BiRightTopArrowCircle,BiDotsVerticalRounded } from "react-icons/bi";
-import { RxDotsVertical } from "react-icons/Rx";
 
 const Chat = () => {
   return (
@@ -60,13 +59,13 @@ const Chat = () => {
             <div className='flex items-center gap-2 mb-2'>
               <p className="text-sm bg-[#1e1f24] py-2 px-4 text-gray-500 rounded-r-lg rounded-bl-lg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, nobis?</p>
               <button>
-                <RxDotsVertical className="text-gray-400"/>
+                <BiDotsVerticalRounded className="text-gray-400"/>
               </button>
             </div>
             <div className='flex items-center gap-2 mb-2'>
               <p className="text-sm bg-[#1e1f24] py-2 px-4 text-gray-500 rounded-r-lg rounded-bl-lg">Would love to see some Design 😂</p>
               <button>
-                <RxDotsVertical className="text-gray-400"/>
+                <BiDotsVerticalRounded className="text-gray-400"/>
               </button>
             </div>
             
@@ -87,13 +86,13 @@ const Chat = () => {
               <div className='flex items-center gap-2 mb-2'>
                 <p className="text-sm bg-[#1e1f24] py-2 px-4 text-gray-500 rounded-r-lg rounded-bl-lg">ey, happy to hearn from you?, Yes, I will be back in a couple to days</p>
                 <button>
-                  <RxDotsVertical className="text-gray-400"/>
+                  <BiDotsVerticalRounded className="text-gray-400"/>
                 </button>
               </div>
               <div className='flex items-center gap-2 mb-2'>
                 <p className="text-sm bg-[#1e1f24] py-2 px-4 text-gray-500 rounded-r-lg rounded-bl-lg">Would love to see some Design 😂</p>
                 <button>
-                  <RxDotsVertical className="text-gray-400"/>
+                  <BiDotsVerticalRounded className="text-gray-400"/>
                 </button>
               </div>
 
@@ -101,7 +100,7 @@ const Chat = () => {
                 <img src="https://images.pexels.com/photos/13646290/pexels-photo-13646290.jpeg" className='w-[110px] Sobre lo sucedido ayer0px] rounded-lg shadow-lg object-cover cursor-pointer' />
                 <img src="https://images.pexels.com/photos/9921261/pexels-photo-9921261.jpeg" className='w-[110px] rounded-lg shadow-lg object-cover cursor-pointer' />
                 <button>
-                  <RxDotsVertical className="text-gray-400"/>
+                  <BiDotsVerticalRounded className="text-gray-400"/>
                 </button>
               </div>
             </div>
@@ -118,7 +117,7 @@ const Chat = () => {
               <div className='flex items-center justify-end gap-2 mb-2'>
                 <p className="text-sm bg-[#5150fd] py-2 px-4 text-gray-200 rounded-l-lg rounded-br-lg order-1">Would love to see some Design 😂</p>
                 <button>
-                  <RxDotsVertical className="text-gray-400"/>
+                  <BiDotsVerticalRounded className="text-gray-400"/>
                 </button>
               </div>
 
@@ -136,23 +135,17 @@ const Chat = () => {
               <div className='flex items-center gap-2 mb-2'>
                 <p className="text-sm bg-[#1e1f24] py-2 px-4 text-gray-500 rounded-r-lg rounded-bl-lg">ey, happy to hearn from you?, Yes, I will be back in a couple to days</p>
                 <button>
-                  <RxDotsVertical className="text-gray-400"/>
+                  <BiDotsVerticalRounded className="text-gray-400"/>
                 </button>
               </div>
               <div className='flex items-center gap-2 mb-2'>
                 <p className="text-sm bg-[#1e1f24] py-2 px-4 text-gray-500 rounded-r-lg rounded-bl-lg">Would love to see some Design 😂</p>
                 <button>
-                  <RxDotsVertical className="text-gray-400"/>
+                  <BiDotsVerticalRounded className="text-gray-400"/>
                 </button>
               </div>
 
-              <div className='flex items-center gap-2 mb-2'>
-                <img src="https://images.pexels.com/photos/13646290/pexels-photo-13646290.jpeg" className='w-2 rounded-lg shadow-lg object-cover cursor-pointer' />
-                <img src="https://images.pexels.com/photos/9921261/pexels-photo-9921261.jpeg" className='w-2 rounded-lg shadow-lg object-cover cursor-pointer' />
-                <button>
-                  <RxDotsVertical className="text-gray-400"/>
-                </button>
-              </div>
+              
             </div>
           </div>
         </div>
